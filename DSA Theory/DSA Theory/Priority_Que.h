@@ -14,6 +14,7 @@ public:
 	cPriorityQue(cnode*& ptr) :cqueue(ptr) {}
 
 	cPriorityQue(const cPriorityQue& src) :cqueue((cqueue&)src) {}
+	
 	//Declared a method to add node in the with priority
 	cPriorityQue& add(cnode*& ptr)
 	{
