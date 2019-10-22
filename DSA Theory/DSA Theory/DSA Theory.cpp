@@ -7,7 +7,7 @@
 using namespace std;
 
 int main()
-{
+{	//Declaring nodes and setting data and priority
 	cnode* n1 = new cnode();
 	n1->setData(20);
 	n1->setPriority(4);
@@ -18,7 +18,7 @@ int main()
 	n3->setData(100);
 	n3->setPriority(1);
 
-
+	//Adding nodes into priority queue
 	cout << "Adding values to first queue " << endl;
 	cPriorityQue q1;
 	q1.add(n1);
